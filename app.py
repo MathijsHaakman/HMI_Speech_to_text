@@ -33,6 +33,6 @@ with open(join("Resources", "Transcribed_List.csv"), 'r') as list:
             ).get_result()
             after = int(round(time.time() * 1000))
             result = result["results"][0]["alternatives"][0]
-            print("{},{},{},{},{}".format(number, text, result["confidence"], result["transcript"].strip() + ".", after-before))
+            print("{};{};{};{};{}".format(number, text, result["confidence"], result["transcript"].strip() + ".", after-before))
 
         line = list.readline()
