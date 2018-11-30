@@ -4,7 +4,7 @@ from os.path import join, dirname
 import time
 
 service = SpeechToTextV1(
-    iam_apikey='',
+    iam_apikey='hIvD-DXMrYsuzRl1w9RarP1zOxo8j58vqFui85ba59Nc',
     url='https://stream-fra.watsonplatform.net/speech-to-text/api'
 )
 
